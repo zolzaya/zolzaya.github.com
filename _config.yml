@@ -1,2 +1,5 @@
 pygments: true
 timezone: Asia/Ulaanbaatar
+permalink: /:year/:month/:day/:title
+exclude:
+  - Rakefile
