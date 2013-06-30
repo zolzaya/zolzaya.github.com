@@ -1,5 +1,5 @@
 desc "compile and run the site"
-task :default do
+task :sass do
   pids = [
     spawn("jekyll"),
     spawn("scss --watch assets:css")
@@ -13,4 +13,11 @@ task :default do
   loop do
     sleep 1
   end
+end
+
+desc "deploy to GitHub"
+task :deploy do
+  puts "## Deploying to Github Pages.."
+  system "git push origin master --force"
+  puts "## Deploy Complete!"
 end
