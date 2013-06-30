@@ -1,5 +1,9 @@
 pygments: true
 timezone: Asia/Ulaanbaatar
 permalink: /:year/:month/:day/:title
+markdown_ext: md
 exclude:
   - Rakefile
+
+
+title: Study, Master, Enhance
