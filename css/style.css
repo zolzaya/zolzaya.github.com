@@ -37,16 +37,18 @@ hr {
         font-size: 35px;
         color: #303030;
         line-height: 1.2; }
-    #container .inner article h3 {
-      color: #d5000d;
-      display: block;
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 8px; }
-      #container .inner article h3 span {
-        color: #6d6d6d;
-        float: right;
-        font-size: 16px; }
+    #container .inner article {
+      margin-bottom: 50px; }
+      #container .inner article h3 {
+        color: #d5000d;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px; }
+        #container .inner article h3 span {
+          color: #6d6d6d;
+          float: right;
+          font-size: 16px; }
     #container .inner footer {
       background: transparent url("../img/hr.png") 0 0 no-repeat;
       font-size: 13px;
