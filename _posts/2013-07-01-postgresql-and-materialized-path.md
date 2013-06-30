@@ -1,9 +1,6 @@
 ---
 title: PostgreSQL & Materialized path
 layout: post
-tags:
- - PostgreSQL
- - RDBMS
 ---
 
 <pre>

@@ -5,7 +5,9 @@ title:  Study, Master, Enhance
 
 {% for post in site.posts %}
   <article>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {{ post.date | date: "%d %B %Y" }}
+    <h3>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%d %B %Y" }}</span>
+    </h3>
   </article>
 {% endfor %}
