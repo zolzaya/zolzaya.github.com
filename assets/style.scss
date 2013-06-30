@@ -7,12 +7,24 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
+.span7 {
+  margin: {
+    left: 0px !important;
+  }
+}
+
 hr {
   height: 1px;
   line-height: 1px;
-  margin-top: 1em;
+  margin: {
+    top: 1em;
+    bottom: 0px !important;
+  }
   padding-bottom: 1em;
-  border: none;
+  border: {
+    top: none !important;
+    bottom: none !important;
+  }
   background: transparent url('../img/hr.png') 50% 0 no-repeat;
 }
 
@@ -20,9 +32,11 @@ hr {
   background: transparent url(../img/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
   .inner {
-    width: 620px;
+    width: 670px;
     margin: 0 auto;
+    height: auto;
     header {
+      width: 100%;
       padding: {
         top: 35px;
         bottom: 10px;
